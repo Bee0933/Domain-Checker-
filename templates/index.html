@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DGA MODEL</title>
+    <title>Domain Checker - [debug mode]</title>
 
-    <link rel="stylesheet" href="/home/bee_nyah/Desktop/RESUME PROJECTS/Domain Generation Algorithm (DGA) Detection /templates/main.css">
+    <!-- <link rel="stylesheet" href="/home/bee_nyah/Desktop/RESUME PROJECTS/Domain Generation Algorithm (DGA) Detection /static/css/main.css"> -->
+
+    <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
 
 </head>
 <body>
@@ -16,7 +18,7 @@
         <!-- header -->
         <header class="head">
             <div class="logo">
-                Domain<span>Checker</span>
+                <a href="#"> Domain<span>Checker</span></a>
             </div>
         </header>
 
@@ -56,39 +58,10 @@
             </div>
         </div>
 
-        <div class="input_form">
-            <input type="text">
-            <input type="button" value="check">
-        </div>
-
-        <!-- LANDING PAGE -->
-
-        <div class="output_sec">
-            <div class="label_check">Result</div>
-
-            <div class="output_box">
-                <div class="card1">
-                    <div class="result_tag1">Domain type :</div>
-                    <div class="result1">DGA</div>
-                </div>
-
-                <div class="card2">
-                    <div class="result_tag2">Maleware class :</div>
-                    <div class="result2">Bamital</div>
-                </div>
-            </div>
-
-            <div class="label_desc">
-                <div class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit tellus 
-                    libero id elementum. Sollicitudin nunc pulvinar in mollis. Mattis 
-                    viverra quis gravida lorem mi neque pellentesque. Augue nunc 
-                    morbi nec amet amet.
-                </div>
-            </div>
-        </div>
-
-
+        <form class="input_form" action="/" method="POST">
+            <input class="text_box" type="text" name="input_url" placeholder="input url here">
+            <input class="button_check" type="submit" value="check">
+        </form>        
     </div>
 </body>
 </html>
