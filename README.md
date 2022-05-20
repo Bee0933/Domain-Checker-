@@ -1,4 +1,4 @@
-# **Mushroom Clasification 🍄 🍄**
+# **Domain Checker**
 
 ![demo_video](mushroom.gif)
 
