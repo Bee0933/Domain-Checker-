@@ -1,6 +1,6 @@
 # **Domain Checker**
 
-![demo_video](mushroom.gif)
+<!-- ![demo_video](mushroom.gif)
 
 ## ✔️ **Description** 📑
 ___
@@ -76,3 +76,4 @@ ___
 
 
 
+ -->
