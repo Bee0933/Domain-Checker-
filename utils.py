@@ -1,5 +1,6 @@
 import os
 import pickle
+import config
 from tkinter import W
 import warnings
 import pandas as pd
@@ -70,20 +71,34 @@ def tokenizer(url):
 
     return token
 
-def predictt(url):
-    with open('models/Xtrain.pkl', 'rb') as f:
+# predict model function
+def predict(url):
+    url = str(url).lower()
+
+    # load train data to fit vectorizer
+    with open(config.X_TRAIN_SAVED, 'rb') as f:
             Xtrain = pickle.load(f)
 
+            # preprocess & vectorize train set 
             tVec = TfidfVectorizer(tokenizer=tokenizer)
             tf = tVec.fit_transform(Xtrain)
 
+            # preprocess and vectorize input url
             input = [url]
             tf = tVec.transform(input)
 
-            model = jl.load('models/trained_rf_dga_classifier.sav', 'r')
+            # load trained model 
+            model = jl.load(config.TRAINED_MODEL, 'r')
+
+            # prediction
             result = model.predict(tf)
             res = {'0': 'maleware domain', '1': 'legit'}
             # print(res[str(result[0])])
 
             return res[str(result[0])]
+
+
+if __name__ == '__main__':
+    # print(predict('GorddsogjowdhvoudhsidhsklE.Com'))
+    pass
 

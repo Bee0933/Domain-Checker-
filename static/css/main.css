@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+@media only screen and (max-width:529px){
+body{
+    margin: 2.5em;
+    margin-top: 2.8em;
+    font-family: 'Poppins'; 
+}
+
+.wrapper{
+    color: rgb(100, 100, 100);
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    font-size: 1.1rem;
+
+}
+.logo{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 3em;
+}
+.logo span{
+    color: #CC041E;
+}
+.logo a{
+    color:black;
+    text-decoration: none;
+}
+
+.hero_txt{
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.1em;
+}
+.confidence{
+    color: #CC041E;
+}
+.domain{
+    background: #CC041E;
+    color: white;
+    position: absolute;
+    margin-top:1.2em;
+    /* text-align: center; */
+    /* width: 100%; */
+    margin-left: -5.9em;
+    transform: rotate(-3deg)
+}
+
+.hero_image{
+    margin-top:6em;
+    position:relative;
+    display: flex;
+    justify-content:center;
+}
+
+.hero_sub_text{
+    color: #838383;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: center;
+    font-weight: 400;
+}
+
+.hero_sub_desc{
+    display: none;
+}
+
+.input_form{
+    height: 100%;
+    margin-top: 3em;
+    display: grid;
+    justify-items: center;
+    align-items: space-between;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.text_box{
+    width: 100%;
+    height: 2em;
+    /* border-radius: 3px; */
+    border: .1em solid;
+    border-color: #8d8d8d;
+    border-radius: 3em;
+    text-align: center;
+    color: #646363;
+    font-family: poppins;
+    font-weight: medium;
+    
+}
+
+.button_check{
+    margin-top: 2em;
+    height: 2.5em;
+    width: 100%;
+    border: none;
+    border-radius: 3em;
+    color: white;
+    background: #CC041E;
+    font-family: Poppins;
+    font-weight: bold;  
+}
+.button_check:hover{
+    background: rgb(20, 13, 13);
+}
+
+
+/* display */
+.loading{
+    font-family: Poppins;
+    font-weight: normal; 
+    color: rgb(148, 148, 148);
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* diaplay */
+.output_sec{
+    color: black;
+}
+
+}
+
+
+
+
+
+/* desktop */
+
+
+
+
+
+
+@media only screen and (min-width:530px){
+body{
+    margin: 2.5em;
+    margin-top: 2.8em;
+    font-family: 'Poppins'; 
+}
+
+.wrapper{
+    color: rgb(72, 255, 0);
+}
+.head{
+    display: flex;
+    justify-content: left;
+    font-size: 1.1rem;
+
+}
+.logo{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 3em;
+}
+.logo span{
+    color: #CC041E;
+}
+.logo a{
+    color:black;
+    text-decoration: none;
+}
+
+.hero_txt{
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.1em;
+}
+.confidence{
+    color: #CC041E;
+}
+.domain{
+    background: #CC041E;
+    color: white;
+    position: absolute;
+    margin-top:1.2em;
+    /* text-align: center; */
+    /* width: 100%; */
+    margin-left: -5.9em;
+    transform: rotate(-3deg)
+}
+
+.hero_image{
+    /* margin-top:6em; */
+    position:relative;
+    display: flex;
+    /* justify-content:center; */
+}
+
+.hero_sub_text{
+    color: #838383;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: center;
+    font-weight: 400;
+}
+
+.hero_sub_desc{
+    display: none;
+}
+
+.input_form{
+    height: 100%;
+    margin-top: 3em;
+    display: grid;
+    justify-items: left;
+    align-items: space-between;
+    padding-left: 8em;
+    padding-right: 8em;
+}
+
+.text_box{
+    width: 100%;
+    height: 2em;
+    /* border-radius: 3px; */
+    border: .1em solid;
+    border-color: #8d8d8d;
+    border-radius: 3em;
+    text-align: center;
+    color: #646363;
+    font-family: poppins;
+    font-weight: medium;
+    
+}
+
+.button_check{
+    margin-top: 2em;
+    height: 2.5em;
+    width: 100%;
+    border: none;
+    border-radius: 3em;
+    color: white;
+    background: #CC041E;
+    font-family: Poppins;
+    font-weight: bold;  
+}
+.button_check:hover{
+    background: rgb(20, 13, 13);
+}
+
+
+/* display */
+.loading{
+    font-family: Poppins;
+    font-weight: normal; 
+    color: rgb(148, 148, 148);
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* diaplay */
+.output_sec{
+    color: black;
+}
+
+}
