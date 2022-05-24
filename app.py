@@ -15,4 +15,4 @@ def home_page():
         
 
 if __name__ == '__main__':
-    app.run(debug=True, host='localhost', port=str(5000))
+    app.run(debug=False)

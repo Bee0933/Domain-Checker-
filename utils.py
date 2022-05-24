@@ -1,7 +1,6 @@
 import os
 import pickle
 import config
-from tkinter import W
 import warnings
 import pandas as pd
 import joblib as jl

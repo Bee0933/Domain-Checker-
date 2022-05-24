@@ -1,0 +1,7 @@
+# folders
+dataset
+
+# exts
+*.ipynb
+*.gitignore
+*.md
