@@ -49,7 +49,7 @@ ___
 ___
 This app was containerized with the docker contrainer and the app image was pushed to docker hub and deployed on [AWS](https://aws.amazon.com/)
 
-**Link to Domain Checker web app : [Domain checker app](#)**
+**Link to Domain Checker web app : [Domain checker app](http://ec2-3-145-45-178.us-east-2.compute.amazonaws.com:5000/)**
 
 **Link to Domain Checker docker image : [Domain checker app image](https://hub.docker.com/repository/docker/bestnyah/domain-checker)**
 
